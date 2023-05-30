@@ -7,7 +7,7 @@ import { escapeStringRegexp } from "./vendored/escapeStringRegexp";
 import { LANGUAGES } from "./languages";
 
 const GOOGLE_TTS_URL = "http://translate.google.com/translate_tts";
-const DEFAULT_MAX_CHARS = 100;
+const DEFAULT_MAX_CHARS = 200;
 
 export class Text2Speech {
   lang: string;

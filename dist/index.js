@@ -20,7 +20,7 @@ const http_1 = __importDefault(require("http"));
 const escapeStringRegexp_1 = require("./vendored/escapeStringRegexp");
 const languages_1 = require("./languages");
 const GOOGLE_TTS_URL = "http://translate.google.com/translate_tts";
-const DEFAULT_MAX_CHARS = 100;
+const DEFAULT_MAX_CHARS = 200;
 class Text2Speech {
     constructor(_lang, _debug) {
         this.lang = _lang !== null && _lang !== void 0 ? _lang : "en";
